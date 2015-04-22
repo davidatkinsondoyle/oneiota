@@ -1,5 +1,6 @@
 <?php
 //ProductsController 
+require_once('../models/filter.php');
 
 class ProductsController {
    

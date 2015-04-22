@@ -12,6 +12,7 @@ error_reporting(-1);
    $productsArray = $dataModel->parseCSV();    
    $products = $productsController::buildObject($productsArray);
       
+   header("Access-Control-Allow-Origin: *");
    header('Content-Type: application/json');
    echo(json_encode($products));
 ?>
