@@ -1,4 +1,4 @@
-# oneiota demo
+# Oneiota demo
 Here is my demo code for csv to json parseing. Ive also included a small json api and Enber js application for viewing the data :-) 
 
 ##Notes on running
